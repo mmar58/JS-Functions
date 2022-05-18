@@ -42,6 +42,6 @@ console.log(printdatetime(new Date()))
 function addHours(date,hours) {
     date.setTime(date.getTime() + hours * 60 * 60 * 1000);
     return date;
-  }
-  //testing
-  console.log(printdatetime(addHours(new Date(),2)))
+}
+//testing
+console.log(printdatetime(addHours(new Date(),2)))
